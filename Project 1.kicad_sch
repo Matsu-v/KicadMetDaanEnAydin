@@ -1596,7 +1596,7 @@
   (symbol (lib_id "power:+5V") (at 218.44 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 0a625eb3-7c7b-4204-8a93-2f92b04ba9f2)
-    (property "Reference" "#PWR?" (id 0) (at 218.44 109.22 0)
+    (property "Reference" "#PWR0112" (id 0) (at 218.44 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (id 1) (at 218.44 101.8342 0))
@@ -1689,7 +1689,7 @@
   (symbol (lib_id "power:+5V") (at 74.93 118.11 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 338518ab-5898-4c83-bb50-b440f75027b4)
-    (property "Reference" "#PWR?" (id 0) (at 71.12 118.11 0)
+    (property "Reference" "#PWR0104" (id 0) (at 71.12 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (id 1) (at 78.105 118.5438 90)
@@ -1750,7 +1750,7 @@
   (symbol (lib_id "power:GNDREF") (at 166.37 34.29 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6a39bd7f-5728-47af-939f-6a17becf1f25)
-    (property "Reference" "#PWR?" (id 0) (at 172.72 34.29 0)
+    (property "Reference" "#PWR0106" (id 0) (at 172.72 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (id 1) (at 169.545 34.7238 90)
@@ -1783,7 +1783,7 @@
   (symbol (lib_id "power:+5V") (at 63.5 78.74 180) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 78869d40-832b-4402-9c11-4193141d6842)
-    (property "Reference" "#PWR?" (id 0) (at 63.5 74.93 0)
+    (property "Reference" "#PWR0105" (id 0) (at 63.5 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (id 1) (at 63.5 83.1834 0))
@@ -1839,7 +1839,7 @@
     (property "Value" "RFID-RC522-MODULE" (id 1) (at 123.19 182.88 90)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical" (id 2) (at 133.35 162.56 0)
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" (id 2) (at 133.35 162.56 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 133.35 162.56 0)
@@ -1919,7 +1919,7 @@
   (symbol (lib_id "power:GNDREF") (at 46.99 120.65 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid ba3feac5-d630-4bed-8e14-7db0b42c2f83)
-    (property "Reference" "#PWR?" (id 0) (at 53.34 120.65 0)
+    (property "Reference" "#PWR0101" (id 0) (at 53.34 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (id 1) (at 50.165 121.0838 90)
@@ -1974,7 +1974,7 @@
   (symbol (lib_id "power:GNDREF") (at 166.37 44.45 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid cb63e662-501d-4536-84b1-4962a1f99666)
-    (property "Reference" "#PWR?" (id 0) (at 172.72 44.45 0)
+    (property "Reference" "#PWR0107" (id 0) (at 172.72 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (id 1) (at 169.545 44.8838 90)
@@ -1992,7 +1992,7 @@
   (symbol (lib_id "power:+5V") (at 219.71 39.37 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ce0fc0c8-3db8-4941-80cc-972bfb47b4fe)
-    (property "Reference" "#PWR?" (id 0) (at 219.71 43.18 0)
+    (property "Reference" "#PWR0111" (id 0) (at 219.71 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (id 1) (at 219.71 35.7942 0))
@@ -2039,7 +2039,7 @@
   (symbol (lib_id "power:GNDREF") (at 166.37 39.37 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid f606cdc7-a5e0-4feb-bca6-f9655c59631f)
-    (property "Reference" "#PWR?" (id 0) (at 172.72 39.37 0)
+    (property "Reference" "#PWR0110" (id 0) (at 172.72 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (id 1) (at 169.545 39.8038 90)
@@ -2081,11 +2081,26 @@
   )
 
   (symbol_instances
+    (path "/ba3feac5-d630-4bed-8e14-7db0b42c2f83"
+      (reference "#PWR0101") (unit 1) (value "GNDREF") (footprint "")
+    )
     (path "/c7669069-c13b-42b4-a278-9f48cd76a941"
       (reference "#PWR0102") (unit 1) (value "GNDREF") (footprint "")
     )
     (path "/aa665332-4e99-4e04-8099-de8a6b1a9c6c"
       (reference "#PWR0103") (unit 1) (value "GNDREF") (footprint "")
+    )
+    (path "/338518ab-5898-4c83-bb50-b440f75027b4"
+      (reference "#PWR0104") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/78869d40-832b-4402-9c11-4193141d6842"
+      (reference "#PWR0105") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/6a39bd7f-5728-47af-939f-6a17becf1f25"
+      (reference "#PWR0106") (unit 1) (value "GNDREF") (footprint "")
+    )
+    (path "/cb63e662-501d-4536-84b1-4962a1f99666"
+      (reference "#PWR0107") (unit 1) (value "GNDREF") (footprint "")
     )
     (path "/d88cfbbf-1cde-4824-a59d-8811cec5ba8c"
       (reference "#PWR0108") (unit 1) (value "GNDREF") (footprint "")
@@ -2093,29 +2108,14 @@
     (path "/05e81a6c-fd5a-4987-83b4-404c2edde47d"
       (reference "#PWR0109") (unit 1) (value "GNDREF") (footprint "")
     )
-    (path "/0a625eb3-7c7b-4204-8a93-2f92b04ba9f2"
-      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/338518ab-5898-4c83-bb50-b440f75027b4"
-      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/6a39bd7f-5728-47af-939f-6a17becf1f25"
-      (reference "#PWR?") (unit 1) (value "GNDREF") (footprint "")
-    )
-    (path "/78869d40-832b-4402-9c11-4193141d6842"
-      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/ba3feac5-d630-4bed-8e14-7db0b42c2f83"
-      (reference "#PWR?") (unit 1) (value "GNDREF") (footprint "")
-    )
-    (path "/cb63e662-501d-4536-84b1-4962a1f99666"
-      (reference "#PWR?") (unit 1) (value "GNDREF") (footprint "")
+    (path "/f606cdc7-a5e0-4feb-bca6-f9655c59631f"
+      (reference "#PWR0110") (unit 1) (value "GNDREF") (footprint "")
     )
     (path "/ce0fc0c8-3db8-4941-80cc-972bfb47b4fe"
-      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+      (reference "#PWR0111") (unit 1) (value "+5V") (footprint "")
     )
-    (path "/f606cdc7-a5e0-4feb-bca6-f9655c59631f"
-      (reference "#PWR?") (unit 1) (value "GNDREF") (footprint "")
+    (path "/0a625eb3-7c7b-4204-8a93-2f92b04ba9f2"
+      (reference "#PWR0112") (unit 1) (value "+5V") (footprint "")
     )
     (path "/2de269c6-be7f-498e-9d9c-81e85907e612"
       (reference "D1") (unit 1) (value "LED_RGB") (footprint "LED_SMD:LED_Avago_PLCC6_3x2.8mm")
@@ -2127,7 +2127,7 @@
       (reference "J2") (unit 1) (value "Barrel_Jack") (footprint "Connector_BarrelJack:BarrelJack_CLIFF_FC681465S_SMT_Horizontal")
     )
     (path "/a96f00ba-dda0-463c-ab04-89a38023e407"
-      (reference "P1") (unit 1) (value "RFID-RC522-MODULE") (footprint "Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical")
+      (reference "P1") (unit 1) (value "RFID-RC522-MODULE") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical")
     )
     (path "/70e088a3-daab-461b-924b-e4ab67f39b3e"
       (reference "R1") (unit 1) (value "R") (footprint "Resistor_SMD:R_0201_0603Metric")
