@@ -1,3 +1,3 @@
-# KicadMetDaanEnAydin
+# Kicad Met Daan & Aydin
 
-XX Daan
+- x daaN
